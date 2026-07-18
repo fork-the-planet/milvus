@@ -1,7 +1,7 @@
 --find-links https://test.pypi.org/simple/pymilvus/
 requests>=2.32.4
 urllib3>=2.5.0
-pytest==8.3.4
+pytest==9.0.3
 pytest_tagging==1.6.0
 PyYAML==6.0.2
 numpy==2.2.6
@@ -18,7 +18,7 @@ loguru==0.7.3
 bm25s==0.2.13
 # rjieba 0.1.11 wraps jieba-rs 0.6.x, closest to Milvus' pinned jieba-rs 0.6.8.
 rjieba==0.1.11
-pyarrow==21.0.0
+pyarrow==23.0.1
 # for external collection formats
 pylance==6.0.0
 vortex-data==0.56.0; python_version >= "3.11"
